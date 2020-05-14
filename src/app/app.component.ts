@@ -9,7 +9,7 @@ import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 export class AppComponent {
   title = 'szeged-transport-map';
 
-  @ViewChild('mapContainer', {static: false}) gmap: ElementRef;
+@ViewChild('mapContainer', {static: false}) gmap: ElementRef;
 map: google.maps.Map;
 lat = 46.247039;
 lng = 20.147005;
